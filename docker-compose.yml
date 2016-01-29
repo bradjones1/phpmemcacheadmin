@@ -1,0 +1,4 @@
+web:
+  build: . # Can't be below this since we have to add files in public/
+  ports:
+   - "127.0.0.1:3000:80"    # Web
